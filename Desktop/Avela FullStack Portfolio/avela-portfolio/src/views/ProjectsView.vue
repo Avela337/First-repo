@@ -23,7 +23,7 @@
                 <span class="project-year">{{ project.year }}</span>
                 <span v-if="project.teamProject" class="team-badge">Group Project</span>
               </div>
-              <span class="status-dot"></span>
+              
             </div>
 
             <div class="card-body">

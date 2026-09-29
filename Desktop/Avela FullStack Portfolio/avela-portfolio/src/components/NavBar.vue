@@ -3,8 +3,8 @@
     <div class="container nav-inner">
       <!-- Brand -->
       <router-link to="/" class="brand">
-        <span class="brand-dot"></span>
-        <span class="brand-name">avela.dev<span class="cursor">_</span></span>
+        
+        
       </router-link>
 
       <!-- Desktop links -->
