@@ -3,10 +3,7 @@
     <section class="skills">
       <div class="container">
 
-        <div class="section-label">
-          
-          Skills
-        </div>
+        
         <h2 style="margin-top: 8px; margin-bottom: 48px;">Skills &amp; Technologies</h2>
 
         <div class="skills-grid">
@@ -27,7 +24,7 @@
         </div>
 
         <div class="recognition">
-          <span class="rec-label">EDUCATION &amp; BACKGROUND</span>
+          
           <div class="rec-items">
             <div class="rec-item">
               <span class="rec-title">Full-Stack Web Development</span>
@@ -35,7 +32,7 @@
             </div>
             <div class="rec-item">
               <span class="rec-title">Deployed Production Apps</span>
-              <span class="rec-sub">Vercel · Railway · Netlify · 2025</span>
+              <span class="rec-sub">Vercel · Railway · Netlify · 2026</span>
             </div>
           </div>
         </div>
@@ -50,7 +47,7 @@ const skillGroups = [
   {
     title: 'Frontend',
     proficiency: 85,
-    skills: ['HTML5 & CSS3', 'JavaScript (ES6+)', 'Vue 3 & Vite', 'Pinia', 'Vue Router', 'Bootstrap'],
+    skills: ['HTML5 & CSS3', 'JavaScript (ES6+)', 'Vue 3 & Vite','Vue Router', 'Bootstrap'],
   },
   {
     title: 'Backend',

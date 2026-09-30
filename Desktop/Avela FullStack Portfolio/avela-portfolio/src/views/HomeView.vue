@@ -4,11 +4,7 @@
     <section class="hero">
       <div class="container">
 
-        <!-- Status badge -->
-        <div class="status-badge">
-          
-          OPEN FOR OPPORTUNITIES
-        </div>
+        
 
         <!-- Headline -->
         <h1 class="headline fade-up visible" style="transition-delay:0.15s">
@@ -19,7 +15,7 @@
         <!-- Sub -->
         <p class="sub fade-up visible" style="transition-delay:0.25s">
           I'm Avela, a Full Stack Developer from Cape Town building purposeful,
-          production-ready software from Vue frontends to Express APIs and everything in between.
+          production ready software from Vue frontends to Express APIs and everything in between.
         </p>
 
         <!-- CTA -->
@@ -50,7 +46,7 @@
             <span class="t-btn t-red"></span>
             <span class="t-btn t-yellow"></span>
             <span class="t-btn t-green"></span>
-            <span class="t-title">~/avela-portfolio/index.js</span>
+            
             <span class="t-enc">UTF-8</span>
           </div>
           <div class="terminal-body">

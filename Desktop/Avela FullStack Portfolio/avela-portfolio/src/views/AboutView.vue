@@ -6,7 +6,10 @@
 
           <div class="photo-col">
             <div class="photo-card">
-              <div class="photo-placeholder">
+              <div class="photo-frame">
+                <img :src="avelaPhoto" alt="Portrait of Avela Gxotiwe" class="photo-img" />
+              
+                <!-- <img src="/avela-portfolio/src/avela.jpg.jpg"> -->
                 <span class="initials">AG</span>
               </div>
               <div class="photo-caption">
@@ -17,19 +20,23 @@
           </div>
 
           <div class="content-col">
-            <div class="section-label">
-              
-              About
-            </div>
+            
 
             <h2>Solving Real Problems<br>with Purposeful Code</h2>
 
             <p class="bio">
-              I'm a Full Stack Developer from Cape Town, South Africa, with a passion for building
-              software that genuinely makes a difference. Growing up in the Cape, I was always
-              drawn to how things work and coding became my way of building things that matter.
-              Whether it's architecting a REST API or crafting a responsive Vue frontend, I bring
-              the same energy, clean, purposeful, and built to last.
+              I'm a Full Stack Developer from Khayelitsha, Cape Town. Growing up here, I saw
+              first-hand what happens when services don't work the way they should: the
+              delays, the workarounds, the time and energy people lose just getting through
+              an ordinary day. Those aren't abstract problems to me. They're the ones my
+              community deals with every day.
+
+              That's what drives how I build software. I start with the real problem, who it
+              affects, and what the simplest reliable fix looks like, then I build it end to
+              end: REST APIs, data models, and responsive Vue interfaces that work on the
+              devices and connections people actually have. My goal is to keep growing my
+              skills until I can build solutions that make everyday life in communities like
+              mine easier.
             </p>
 
             <div class="highlight-cards">
@@ -72,6 +79,7 @@
 </template>
 
 <script setup>
+import avelaPhoto from '@/assets/avela.jpg'
 const techs = ['Vue 3', 'JavaScript', 'Node.js', 'Express', 'PHP', 'MySQL', 'HTML5', 'CSS3', 'Git', 'Vite', 'JWT', 'REST APIs']
 </script>
 
@@ -79,7 +87,8 @@ const techs = ['Vue 3', 'JavaScript', 'Node.js', 'Express', 'PHP', 'MySQL', 'HTM
 .about { padding: 72px 0 96px; }
 .about-grid { display: grid; grid-template-columns: 360px 1fr; gap: 64px; align-items: start; margin-bottom: 72px; }
 .photo-card { border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border-light); }
-.photo-placeholder { width: 100%; aspect-ratio: 1/1.1; background: linear-gradient(135deg, #0d2b1e, #1a4a30); display: flex; align-items: center; justify-content: center; }
+.photo-frame { width: 100%; aspect-ratio: 1 / 1.1; overflow: hidden; background: #0d2b1e; }
+.photo-img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; display: block; }
 .initials { font-family: var(--mono); font-size: 4rem; font-weight: 700; color: var(--accent); opacity: 0.7; }
 .photo-caption { background: var(--text); padding: 16px 20px; display: flex; flex-direction: column; gap: 4px; }
 .caption-name { font-family: var(--mono); font-size: 0.85rem; font-weight: 600; color: #fff; }

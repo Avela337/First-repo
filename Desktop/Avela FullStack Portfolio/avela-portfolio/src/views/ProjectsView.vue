@@ -5,10 +5,7 @@
 
         <div class="projects-header">
           <div>
-            <div class="section-label">
-              
-              Projects
-            </div>
+            
             <h2>Featured Projects</h2>
           </div>
           <p class="header-sub">Production-ready applications built with real APIs, authentication, and full stack architecture.</p>
@@ -21,7 +18,7 @@
               <div class="card-meta">
                 <span class="project-type">{{ project.type }}</span>
                 <span class="project-year">{{ project.year }}</span>
-                <span v-if="project.teamProject" class="team-badge">Group Project</span>
+                
               </div>
               
             </div>
@@ -51,7 +48,7 @@
                 GitHub (API)
               </a>
               <a v-if="project.live" :href="project.live" target="_blank" class="btn btn-primary link-btn">
-                Live Demo ↗
+                Live Demo 
               </a>
             </div>
 

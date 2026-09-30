@@ -5,11 +5,7 @@
         <div class="contact-grid">
 
           <div class="contact-info">
-            <div class="section-label">
-              
-              
-              Contact
-            </div>
+            
             <h2 style="margin-top: 8px; margin-bottom: 18px;">Get In Touch</h2>
             <p class="contact-sub">
               Have a project in mind, a role to fill, or just want to connect?
